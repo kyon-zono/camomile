@@ -1,11 +1,3 @@
-.bg-blue {
-  background-color: blue;
-  height: 50px;
-}
-.bg-orange {
-  background-color: orange;
-  height: 150px;
-}
 /* 全体 */
 * {
   box-sizing: border-box;
@@ -20,6 +12,14 @@ body {
   text-align: center;
 }
 
+h3 {
+  margin: 50px auto 20px;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #000;
+  display: table;
+  text-align: center;
+}
 
 /* top-container */
 .top-container {
@@ -39,4 +39,21 @@ body {
 .icon img{
   width: 100%;
   max-width: 150px;
+}
+
+.bg-line {
+  background-color: #07b53b;
+  color: #fff;
+}
+.line {
+  background-color: #fff;
+  color: #07b53b;
+}
+
+/* FAQ-container */
+h5 {
+  color: #fff;
+  background-color: #000;
+  display: table;
+  font-family: "Hiragino Mincho ProN";
 }
