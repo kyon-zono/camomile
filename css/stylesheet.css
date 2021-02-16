@@ -1,0 +1,42 @@
+.bg-blue {
+  background-color: blue;
+  height: 50px;
+}
+.bg-orange {
+  background-color: orange;
+  height: 150px;
+}
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+.centering { /* ブロック */
+  margin: 0 auto;
+}
+.align-center { /* インライン */
+  text-align: center;
+}
+
+
+/* top-container */
+.top-container {
+  background-image: url('../images/top_image.png');
+  height: 80vh;
+  background-size: 100% 100%;
+}
+
+/* supports-container */
+.supports-container img{
+  width: 100%;
+}
+
+
+/* sns-container */
+
+.icon img{
+  width: 100%;
+  max-width: 150px;
+}
