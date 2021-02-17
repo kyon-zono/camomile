@@ -1,0 +1,10 @@
+/* スマホサイズ */
+@media screen and (max-width: 576px) {
+  .support img{
+    width: 100%;
+    max-width: 150px;
+  }
+  .support {
+    margin-bottom: 10px;
+  }
+}

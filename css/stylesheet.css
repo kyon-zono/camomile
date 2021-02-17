@@ -4,6 +4,7 @@
 }
 body {
   margin: 0 auto;
+  width: 100%;
 }
 .centering { /* ブロック */
   margin: 0 auto;
@@ -13,7 +14,7 @@ body {
 }
 
 h3 {
-  margin: 50px auto 20px;
+  margin: 60px auto 50px;
   padding: 0 10px;
   color: #fff;
   background-color: #000;
@@ -29,16 +30,22 @@ h3 {
 }
 
 /* supports-container */
-.supports-container img{
+.support img{
   width: 100%;
+  max-width: 216px;
 }
-
+.support {
+  text-align: center;
+}
 
 /* sns-container */
 
 .icon img{
   width: 100%;
   max-width: 150px;
+}
+.icon {
+  text-align: center;
 }
 
 .bg-line {
