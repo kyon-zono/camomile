@@ -10,9 +10,7 @@ $(function() {
         }
   });
 
-  /* ページ内スクロール */
-  $('#introduction-btn').click(function() {
-    $('#introduction').scrollTop();
-  });
+  /* ふわぁっ */
+  
 
 }); 
