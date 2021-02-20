@@ -8,3 +8,12 @@
     margin-bottom: 10px;
   }
 }
+
+/* タブレットサイズ */
+@media screen and (max-width: 670px) {
+  .top-container {
+  background-image: url('../images/top_image.png');
+  height: 80vh;
+  background-size: 100% 100%;
+  } 
+}

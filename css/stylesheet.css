@@ -25,7 +25,7 @@ h3 {
 /* top-container */
 .top-container {
   background-image: url('../images/top_image.png');
-  height: 80vh;
+  height: 900px;
   background-size: 100% 100%;
 }
 
@@ -164,4 +164,15 @@ h5 {
   background-color: #000;
   display: table;
   font-family: "Hiragino Mincho ProN";
+}
+
+/* フェードイン系 */
+.fadein {
+  opacity: 0.1;
+  transform: translate(0, 50px);
+  transition: all 500ms;
+}
+.fadein.scrollin {
+  opacity: 1;
+  transform: translate(0, 0);
 }
