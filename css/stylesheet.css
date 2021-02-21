@@ -6,6 +6,10 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 .centering { /* ブロック */
   margin: 0 auto;
 }
