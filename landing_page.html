@@ -92,17 +92,17 @@
     <section id="sns" class="container sns-container">
       <h3>#CAMOMILE INC SNS</h3>
       <div class="row centering">
-        <div class="col-4 icon fadein">
+        <div class="col-4 sns-icon fadein">
           <a href="https://www.instagram.com/camomile_inc/">
             <img src="images/instagram.png" alt="instagram">
           </a>
         </div>
-        <div class="col-4 icon fadein">
+        <div class="col-4 sns-icon fadein">
           <a href="https://www.tiktok.com/@camomile_inc?_d=secCgsIARCbDRgBIAMoARI%2BCjyllP5ze%2B%2FtLXZkjYY%2FfnYk%2FFfTJeMfltoAxO3SIaD55NR7eZRRlzbjZxRGlQ6KHcXVwSS3CQtgFpGZxR8aAA%3D%3D&language=ja&sec_uid=MS4wLjABAAAAf8hpmkzNmXRhXUS63InnYRb-gfjr7o-J_X2wJsMVY2h9fYpWc60X6aGtjejuSTtB&sec_user_id=MS4wLjABAAAABhGzmjiT7xYJOSR6aK7KjN5cphFt4nD_J8RGndwjB6o&share_author_id=6828920080991962113&share_link_id=4E3CF757-863F-4EA0-9C6C-1784E2E8E33A&tt_from=copy&u_code=lf9k50d0&user_id=73785457763&utm_campaign=client_share&utm_medium=ios&utm_source=copy&source=h5_t">
             <img src="images/tiktok.png" alt="tiktok">
           </a>
         </div>
-        <div class="col-4 icon fadein">
+        <div class="col-4 sns-icon fadein">
           <a href="#">
             <img src="images/line.png" alt="line">
           </a>
@@ -113,33 +113,38 @@
           <p>ライバー登録は<br>こちら→</p>
         </div>
         <div class="mx-3">
-          <a class="btn bg-line" href="#top"><!-- fontawesome -->
-            <i class="fab fa-2x fa-line"></i><span class="">友だち追加</span>
+          <a class="btn bg-line" href=""><!-- fontawesome -->
+            <i class="fab fa-line"></i><span class="add-friend">友だち追加</span>
           </a>
         </div>
       </article>
     </section>
 
-    <section id="faq" class="container mb-5">
+    <section id="faq" class="container col-sm-9 faq-container mb-5">
       <h3>#FAQ</h3>
-      <h5>Q.顔出しは絶対ですか？</h5>
-      <p class="my-3">
-        A. 最近はVライバーさんなども流行りつつ<br>
-        ありますが、camomile所属ライバーさんには<br>
-        原則顔出しでの配信をお願いしております。
-      </p>
+      <div class="faq-items centering">
+        <!-- question -->
+        <div class="row question">
+          <div class="col-11">
+            <h5>Q.顔出しは絶対ですか？</h5>
+          </div>
+          <div class="col-1">
+            <span class="fas fa-plus"></span>
+          </div>
+        </div>
+        <!-- answer -->
+        <div class="my-3 answer">
+          <p>
+            A. 最近はVライバーさんなども流行りつつ<br>
+            ありますが、camomile所属ライバーさんには<br>
+            原則顔出しでの配信をお願いしております。
+          </p>
+        </div>
+      </div>
     </section>
-
-          <!-- LINEプラグイン -->
-          <a href="">
-            <div class="line-it-button" data-lang="ja" data-type="friend" data-lineid="383uxmrs" style="display: none;">
-              <img src="images/square-default.png" alt="">
-            </div>
-            <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js " async="async" defer="defer"></script>
-          </a>
-          <!-- ここまで -->  
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="javascript/script.js"></script>
+
   </body>
 </html>

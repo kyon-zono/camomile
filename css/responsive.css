@@ -1,5 +1,6 @@
 /* スマホサイズ */
 @media screen and (max-width: 576px) {
+  /* support */
   .support img{
     width: 100%;
     max-width: 150px;
@@ -7,13 +8,15 @@
   .support {
     margin-bottom: 10px;
   }
+  /* sns */
+  .sns-icon img{
+    max-width: 100px;
+  }
 }
 
 /* タブレットサイズ */
 @media screen and (max-width: 670px) {
   .top-container {
-  background-image: url('../images/top_image.png');
   height: 80vh;
-  background-size: 100% 100%;
   } 
 }

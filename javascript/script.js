@@ -10,7 +10,7 @@ $(function() {
         }
   });
 
-  /* ふわぁっ */
+  /* フェードイン */
   $(window).scroll(function() {
     $('.fadein').each(function() {
       var elemPos = $(this).offset().top;
@@ -20,6 +20,21 @@ $(function() {
         $(this).addClass('scrollin');
       }
     });
+  });
+
+  /* アコーディオン */
+  $('.faq-items').click(function() {
+    var $answer = $(this).find('.answer');
+    if ($answer.hasClass('open')) {
+      $answer.removeClass('open');
+      $answer.slideUp();
+      $(this).find('span').attr('class', 'fas fa-plus');
+    }
+    else {
+      $answer.addClass('open');
+      $answer.slideDown();
+      $(this).find('span').attr('class', 'fas fa-minus');
+    }
   });
 
 }); 
