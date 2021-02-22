@@ -1,6 +1,6 @@
 /* スマホサイズ */
 @media screen and (max-width: 576px) {
-  /* top-image */
+  /* top-image */  
   #add-liver p {
     font-size: 20px;
   }
@@ -22,6 +22,6 @@
 /* タブレットサイズ */
 @media screen and (max-width: 670px) {
   .top-container {
-  height: 80vh;
+  background-size: 100% 100%;
   } 
 }
