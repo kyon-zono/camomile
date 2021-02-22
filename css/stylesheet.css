@@ -38,7 +38,7 @@ h3 {
   bottom: 10vh;
 }
 #add-liver p {
-  -webkit-text-stroke: 1px #fff;
+  font-size: 24px;
 }
 .add-liver p {
   margin: 0;

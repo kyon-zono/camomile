@@ -1,5 +1,10 @@
 /* スマホサイズ */
 @media screen and (max-width: 576px) {
+  /* top-image */
+  #add-liver p {
+    font-size: 20px;
+  }
+
   /* support */
   .support img{
     width: 100%;
