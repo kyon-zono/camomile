@@ -4,7 +4,9 @@
   #add-liver p {
     font-size: 20px;
   }
-
+  #add-liver {
+    bottom: 30px;
+  }
   /* support */
   .support img{
     width: 100%;
