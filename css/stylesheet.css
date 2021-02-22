@@ -44,8 +44,6 @@ h3 {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
-  
-
 }
 
 /*** ハンバーガーメニュー ***/
@@ -162,12 +160,6 @@ nav.globalMenuSp.active {
 .sns-icon {
   text-align: center;
 }
-
-.bg-line {
-  background-color: #07b53b;
-  color: #fff;
-}
-
 
 /* FAQ-container */
 h5 {
