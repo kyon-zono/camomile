@@ -28,8 +28,24 @@ h3 {
 /* top-container */
 .top-container {
   background-image: url('../images/top_image.png');
-  height: 1000px;
+  height: 100vh;
   background-size: 100% 100%;
+  position: relative;
+}
+#add-liver {
+  position: absolute;
+  right: 10vw;
+  bottom: 10vh;
+}
+#add-liver p {
+  -webkit-text-stroke: 1px #fff;
+}
+.add-liver p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  
+
 }
 
 /*** ハンバーガーメニュー ***/
