@@ -49,12 +49,16 @@ h3 {
 
 /*** ハンバーガーメニュー ***/
 /*　ハンバーガーボタン　*/
+header {
+  height: 60px;
+}
+
 .hamburger {
   display : block;
   position: fixed;
   z-index : 3;
+  top: 9px;
   right : 13px;
-  top   : 12px;
   width : 42px;
   height: 42px;
   cursor: pointer;
