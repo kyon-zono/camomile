@@ -23,7 +23,7 @@ $(function() {
   });
 
   /* アコーディオン */
-  $('.faq-items').click(function() {
+  $('.faq-item').click(function() {
     var $answer = $(this).find('.answer');
     if ($answer.hasClass('open')) {
       $answer.removeClass('open');
