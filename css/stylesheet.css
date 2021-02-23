@@ -7,6 +7,16 @@ body {
   width: 100%;
   font-family: 'Corben', cursive, "游ゴシック";
 }
+section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.centering { /* ブロック */
+  margin: 0 auto;
+}
+.align-center { /* インライン */
+  text-align: center;
+}
 
 /* フォント関連 */
 h3 { /* section-title */
@@ -28,16 +38,6 @@ h5 { /* FAQ-title */
 }
 p {
   font-size: 24px;
-}
-section {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-.centering { /* ブロック */
-  margin: 0 auto;
-}
-.align-center { /* インライン */
-  text-align: center;
 }
 
 /* top-container */

@@ -7,7 +7,7 @@
   p {
     font-size: 16px;
   }
-  #add-liver p {
+  .add-liver p {
     font-size: 20px;
   }
   h5 {
@@ -30,6 +30,9 @@
   /* sns */
   .sns-icon img{
     max-width: 100px;
+  }
+  .add-friend img{
+    height: 36px;
   }
 }
 
