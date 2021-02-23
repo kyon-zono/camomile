@@ -52,7 +52,7 @@ section {
   position: fixed; /* absolute→fixed */
   right: 10vw;
   bottom: 10vh;
-  z-index: 2; /* add_line固定で追加 */
+  z-index: 2; /* add_liverを固定で追加 */
 }
 #add-liver p {
   color: #fff;
