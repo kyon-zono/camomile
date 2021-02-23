@@ -22,7 +22,7 @@ section {
 h3 { /* section-title */
   font-size: 45px;
   margin: 60px auto 50px;
-  padding: 0 40px;
+  padding: 5px 40px;
   color: #fff;
   background-color: #000;
   display: table;
@@ -39,9 +39,7 @@ h5 { /* FAQ-title */
 p {
   font-size: 24px;
 }
-.fa-arrow-circle-right {
-  margin-left: 5px;
-}
+
 /* top-container */
 .top-container {
   background-image: url('../images/top_image.png');
