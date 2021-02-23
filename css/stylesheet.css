@@ -39,7 +39,9 @@ h5 { /* FAQ-title */
 p {
   font-size: 24px;
 }
-
+.fa-arrow-circle-right {
+  margin-left: 5px;
+}
 /* top-container */
 .top-container {
   background-image: url('../images/top_image.png');
