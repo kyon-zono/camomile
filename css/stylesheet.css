@@ -19,8 +19,7 @@ h3 { /* section-title */
   text-align: center;
   border-radius: 50px;
 }
-
-h5 { /* FAQ-container */
+h5 { /* FAQ-title */
   color: #fff;
   background-color: #000;
   display: table;
@@ -30,8 +29,6 @@ h5 { /* FAQ-container */
 p {
   font-size: 24px;
 }
-
-
 section {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -43,7 +40,6 @@ section {
   text-align: center;
 }
 
-
 /* top-container */
 .top-container {
   background-image: url('../images/top_image.png');
@@ -53,9 +49,10 @@ section {
   position: relative;
 }
 #add-liver {
-  position: absolute;
+  position: fixed; /* absolute→fixed */
   right: 10vw;
   bottom: 10vh;
+  z-index: 2; /* add_line固定で追加 */
 }
 #add-liver p {
   color: #fff;
