@@ -56,11 +56,15 @@ p {
 }
 #add-liver p {
   color: #fff;
-  text-shadow:0 0 10px #000;
+  text-shadow:black 1px 1px 10px, black -1px 1px 10px,
+    black 1px -1px 10px, black -1px -1px 10px;
 }
 .add-liver p {
   margin: 0;
   font-weight: bold;
+}
+.fa-arrow-circle-right {
+  margin-left: 5px;
 }
 
 /* ハンバーガー */
@@ -153,6 +157,30 @@ nav.globalMenuSp ul li a {
 nav.globalMenuSp.active {
   opacity: 100;
 }
+/* introduction */
+.introduction {
+  border: 5px solid #000;
+}
+
+.sample-box-13 {
+    border: 2px solid #da4033;
+    border-radius: 4px;
+    margin: 2em 0;
+    padding: 2em;
+    position: relative;
+}
+.sample-box-13::before {
+    background-color: #fff;
+    color: #da4033;
+    content: "#WHAT IS LIVER";
+    font-weight: bold;
+    left: 1em;
+    padding: 0 .5em;
+    position: absolute;
+    top: -1em;
+}
+
+
 
 /* supports-container */
 .support img{
