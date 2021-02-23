@@ -1,15 +1,16 @@
 /* スマホサイズ */
 @media screen and (max-width: 576px) {
   /* font関連 */
-  h3{
+  h3 {
+    font-size: 30px;
   }
   p {
     font-size: 16px;
   }
   #add-liver p {
-    font-size: 24px;
+    font-size: 20px;
   }
-  .add-liver p {
+  h5 {
     font-size: 20px;
   }
 

@@ -1,16 +1,12 @@
 /* 全体 */
 * {
   box-sizing: border-box;
-  
 }
 body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Corben', cursive, "游ゴシック";
 }
-/* 英語フォントと日本語フォントの両方を指定する場合は、先に英語フォントを指定します。 */
-
-
 
 /* フォント関連 */
 h3 { /* section-title */
@@ -191,6 +187,9 @@ nav.globalMenuSp.active {
 .answer {
   display: none;
   padding: 5px 0px;
+}
+.answer p{
+  margin-bottom: 0;
 }
 
 /* フェードイン系 */
