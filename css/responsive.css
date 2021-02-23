@@ -1,9 +1,20 @@
 /* スマホサイズ */
 @media screen and (max-width: 576px) {
-  /* top-image */  
+  /* font関連 */
+  h3{
+  }
+  p {
+    font-size: 16px;
+  }
   #add-liver p {
+    font-size: 24px;
+  }
+  .add-liver p {
     font-size: 20px;
   }
+
+  /* top-image */  
+  
   #add-liver {
     bottom: 30px;
   }

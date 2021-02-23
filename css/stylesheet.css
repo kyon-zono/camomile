@@ -1,11 +1,41 @@
 /* 全体 */
 * {
   box-sizing: border-box;
+  
 }
 body {
   margin: 0 auto;
   width: 100%;
+  font-family: 'Corben', cursive, "游ゴシック";
 }
+/* 英語フォントと日本語フォントの両方を指定する場合は、先に英語フォントを指定します。 */
+
+
+
+/* フォント関連 */
+h3 { /* section-title */
+  font-size: 45px;
+  margin: 60px auto 50px;
+  padding: 0 40px;
+  color: #fff;
+  background-color: #000;
+  display: table;
+  text-align: center;
+  border-radius: 50px;
+}
+
+h5 { /* FAQ-container */
+  color: #fff;
+  background-color: #000;
+  display: table;
+  font-size: 24px;
+  font-family: "Hiragino Mincho ProN";
+}
+p {
+  font-size: 24px;
+}
+
+
 section {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -16,14 +46,7 @@ section {
 .align-center { /* インライン */
   text-align: center;
 }
-h3 {
-  margin: 60px auto 50px;
-  padding: 0 10px;
-  color: #fff;
-  background-color: #000;
-  display: table;
-  text-align: center;
-}
+
 
 /* top-container */
 .top-container {
@@ -39,11 +62,11 @@ h3 {
   bottom: 10vh;
 }
 #add-liver p {
-  font-size: 24px;
+  color: #fff;
+  text-shadow:0 0 10px #000;
 }
 .add-liver p {
   margin: 0;
-  font-size: 20px;
   font-weight: bold;
 }
 
@@ -157,12 +180,6 @@ nav.globalMenuSp.active {
 }
 
 /* FAQ-container */
-h5 {
-  color: #fff;
-  background-color: #000;
-  display: table;
-  font-family: "Hiragino Mincho ProN";
-}
 .faq-items {
   margin-bottom: 100px;
 }
