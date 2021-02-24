@@ -5,7 +5,7 @@
 body {
   margin: 0 auto;
   width: 100%;
-  font-family: 'Corben', cursive, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+  font-family: "MS Pゴシック", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
 }
 section {
   margin-top: 150px;
@@ -21,6 +21,7 @@ section {
 
 /* フォント関連 */
 h3 { /* section-title */
+  font-family: "arial black"; /* フォント指定 */
   font-size: 45px;
   color: #fff;
   background-color: #000;
