@@ -32,11 +32,9 @@ h3 { /* section-title */
 }
 h5 { /* FAQ-title */
   color: #fff;
-  background-color: #000;
-  display: table;
   font-size: 24px;
+  background-color: #000;
   border-radius: 25px;
-  padding: 5px 15px;
 }
 p {
   font-size: 24px;
@@ -188,12 +186,26 @@ nav.globalMenuSp.active {
 }
 .faq-item {
   margin: 30px 10px;
+  padding-bottom: 5px;
   cursor: pointer;
   border-bottom:1px solid #ccc;
 }
 .question {
-  width: 100%;
+  margin: 0;
 }
+
+.question h5 {
+  padding: 5px 15px;
+  margin: 0;
+  display: inline-block;
+}
+.accordion {
+  padding: 0;
+  margin: auto 0;
+}
+/* accordion span ここに書く */
+/* ここまで */
+
 .answer {
   display: none;
   padding: 5px 0px;
@@ -209,7 +221,7 @@ nav.globalMenuSp.active {
   border: 2px solid #000;
   border-radius: 4px;
   padding: 3em 2em;
-  width: 90%;
+  width: 90%; /* 追記 */
 }
 .box::before {
   /* ポジション */
@@ -220,7 +232,7 @@ nav.globalMenuSp.active {
   margin: auto;
   /* 見出し */
   font-size: 45px;
-  width: 100%;
+  width: 100%; /* 90%→100 */
   color: #fff;
   background-color: #000;
   text-align: center;
