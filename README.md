@@ -1,6 +1,5 @@
 # camomile
 
-* ハンバーガーメニューを閉じても存在している問題。
+# boxのPCサイズの余白を作る用
 
-* faqのレスポンシブ問題
-relative → 90% absolute → 100%
+* box-top-margin

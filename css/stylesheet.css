@@ -197,7 +197,6 @@ nav.globalMenuSp.active {
 .question {
   margin: 0;
 }
-
 .question h5 {
   padding: 5px 15px;
   margin: 0;
@@ -207,9 +206,6 @@ nav.globalMenuSp.active {
   padding: 0;
   margin: auto 0;
 }
-/* accordion span ここに書く */
-/* ここまで */
-
 .answer {
   display: none;
   padding: 5px 0px;
@@ -225,7 +221,6 @@ nav.globalMenuSp.active {
   border: 2px solid #000;
   border-radius: 4px;
   padding: 3em 2em;
-  width: 90%; /* 追記 */
 }
 .box::before {
   /* ポジション */
@@ -236,7 +231,7 @@ nav.globalMenuSp.active {
   margin: auto;
   /* 見出し */
   font-size: 45px;
-  width: 100%; /* 90%→100 */
+  max-width: 90%; 
   color: #fff;
   background-color: #000;
   text-align: center;
@@ -262,7 +257,6 @@ nav.globalMenuSp.active {
 .faq-container::before {
   content: "#FAQ";
 }
-
 
 /* フェードイン系 */
 .fadein {
