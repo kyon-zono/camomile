@@ -5,7 +5,7 @@
 body {
   margin: 0 auto;
   width: 100%;
-  font-family: "MS ゴシック", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
+  font-family: 'Avenir','MS Pゴシック', 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体';
 }
 section {
   margin-top: 150px;
@@ -57,7 +57,7 @@ p {
 #add-liver p {
   color: #fff;
   text-shadow:black 1px 1px 10px, black -1px 1px 10px,
-    black 1px -1px 10px, black -1px -1px 10px;
+              black 1px -1px 10px, black -1px -1px 10px;
 }
 .add-liver p {
   margin: 0;
