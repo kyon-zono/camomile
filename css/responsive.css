@@ -13,6 +13,18 @@
   h5 {
     font-size: 18px;
   }
+  section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+  /* ボックス */
+  .box::before {
+    /* ポジション */
+    top: -25px;
+    /* 見出し */
+    font-size: 24px; /* 30pxか24px */
+    width: 90%;
+  }
 
   /* top-image */  
   
@@ -56,6 +68,5 @@
   }
   #add-liver p {
     font-size: 16px;
-  }
-  
+  } 
 }

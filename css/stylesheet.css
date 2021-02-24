@@ -8,8 +8,8 @@ body {
   font-family: 'Corben', cursive, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
 }
 section {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 .centering { /* ブロック */
   margin: 0 auto;
@@ -49,7 +49,7 @@ p {
   position: relative;
 }
 #add-liver {
-  position: fixed; /* absolute→fixed */
+  position: fixed;
   right: 10vw;
   bottom: 10vh;
   z-index: 2; /* add_liverを固定で追加 */
@@ -158,31 +158,8 @@ nav.globalMenuSp.active {
   opacity: 100;
 }
 /* introduction */
-.introduction {
-  border: 5px solid #000;
-}
 
-.sample-box-13 {
-    border: 2px solid #da4033;
-    border-radius: 4px;
-    margin: 2em 0;
-    padding: 2em;
-    position: relative;
-}
-.sample-box-13::before {
-    background-color: #fff;
-    color: #da4033;
-    content: "#WHAT IS LIVER";
-    font-weight: bold;
-    left: 1em;
-    padding: 0 .5em;
-    position: absolute;
-    top: -1em;
-}
-
-
-
-/* supports-container */
+/* support-container */
 .support img{
   width: 100%;
   max-width: 216px;
@@ -201,11 +178,11 @@ nav.globalMenuSp.active {
 }
 
 /* FAQ-container */
-.faq-items {
+.faq-container {
   margin-bottom: 100px;
 }
 .faq-item {
-  margin: 10px 10px 30px;
+  margin: 30px 10px;
   cursor: pointer;
   border-bottom:1px solid #ccc;
 }
@@ -216,6 +193,51 @@ nav.globalMenuSp.active {
 .answer p{
   margin-bottom: 0;
 }
+
+
+/* ボックス関連 */
+.box {
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 3em;
+}
+.box::before {
+  /* ポジション */
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* 見出し */
+  font-size: 45px;
+  width: 90%;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 50px;
+}
+/* 各ボックス見出し */
+.introduction::before {
+  white-space: pre-wrap;
+  content: "#WHAT  IS  LIVER";
+}
+.support-container::before {
+  content: "#SUPPORT";
+}
+.about-container::before {
+  white-space: pre-wrap;
+  content: "#ABOUT  INCOME";
+}
+.sns-container::before {
+  white-space: pre-wrap;
+  content: "#CAMOMILE INC SNS";
+}
+.faq-container::before {
+  content: "#FAQ";
+}
+
 
 /* フェードイン系 */
 .fadein {
