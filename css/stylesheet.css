@@ -5,8 +5,7 @@
 body {
   margin: 0 auto;
   width: 100%;
-  font-family: fantasy, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
-  /* font-family: 'Corben', cursive, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";  */
+  font-family: 'Corben', cursive, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";
 }
 section {
   margin-top: 150px;
@@ -19,13 +18,14 @@ section {
   text-align: center;
 }
 
+
 /* フォント関連 */
 h3 { /* section-title */
   font-size: 45px;
-  margin: 60px auto 50px;
-  padding: 5px 40px;
   color: #fff;
   background-color: #000;
+  margin: 60px auto 50px;
+  padding: 5px 40px;
   display: table;
   text-align: center;
   border-radius: 50px;
@@ -35,7 +35,8 @@ h5 { /* FAQ-title */
   background-color: #000;
   display: table;
   font-size: 24px;
-  font-family: "Hiragino Mincho ProN";
+  border-radius: 25px;
+  padding: 5px 15px;
 }
 p {
   font-size: 24px;
@@ -177,6 +178,9 @@ nav.globalMenuSp.active {
 .sns-icon {
   text-align: center;
 }
+.sns-icons {
+    margin-top: 3em;
+  }
 
 /* FAQ-container */
 .faq-container {
@@ -186,6 +190,9 @@ nav.globalMenuSp.active {
   margin: 30px 10px;
   cursor: pointer;
   border-bottom:1px solid #ccc;
+}
+.question {
+  width: 100%;
 }
 .answer {
   display: none;
@@ -201,7 +208,7 @@ nav.globalMenuSp.active {
   position: relative;
   border: 2px solid #000;
   border-radius: 4px;
-  padding: 3em;
+  padding: 3em 2em;
 }
 .box::before {
   /* ポジション */
@@ -216,7 +223,7 @@ nav.globalMenuSp.active {
   color: #fff;
   background-color: #000;
   text-align: center;
-  padding: 10px 0 0; /* 'Corben', cursiveの場合  padding: 5px 0; */
+  padding: 5px 0; 
   border-radius: 50px;
 }
 /* 各ボックス見出し */
