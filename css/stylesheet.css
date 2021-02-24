@@ -209,6 +209,7 @@ nav.globalMenuSp.active {
   border: 2px solid #000;
   border-radius: 4px;
   padding: 3em 2em;
+  width: 90%;
 }
 .box::before {
   /* ポジション */
@@ -219,7 +220,7 @@ nav.globalMenuSp.active {
   margin: auto;
   /* 見出し */
   font-size: 45px;
-  width: 90%;
+  width: 100%;
   color: #fff;
   background-color: #000;
   text-align: center;
