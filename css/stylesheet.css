@@ -67,6 +67,8 @@ p {
   margin-left: 5px;
 }
 
+/* add_liver 改善版 */
+
 /* ハンバーガー */
 header {
   height: 60px;
@@ -169,6 +171,7 @@ nav.globalMenuSp.active {
 .support {
   text-align: center;
 }
+/* about-continer */
 
 /* sns-container */
 .sns-icon img{
@@ -228,7 +231,8 @@ nav.globalMenuSp.active {
   right: 0;
   margin: auto;
   /* 見出し(フォント関連) */
-  font-family: 'arial Black'; /* フォント指定 */
+  font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
+  font-weight: bold;
   font-size: 45px;
   max-width: 90%; 
   color: #fff;
