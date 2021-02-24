@@ -18,12 +18,10 @@ section {
   text-align: center;
 }
 
-
 /* フォント関連 */
 h3 { /* section-title */
-  font-family: "arial black"; /* フォント指定 */
+  font-family: 'arial Black'; /* ここは要らない */
   font-size: 45px;
-  font-weight: bold; /* フォント極太 */
   color: #fff;
   background-color: #000;
   margin: 60px auto 50px;
@@ -229,7 +227,8 @@ nav.globalMenuSp.active {
   left: 0;
   right: 0;
   margin: auto;
-  /* 見出し */
+  /* 見出し(フォント関連) */
+  font-family: 'arial Black'; /* フォント指定 */
   font-size: 45px;
   max-width: 90%; 
   color: #fff;
