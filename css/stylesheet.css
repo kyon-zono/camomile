@@ -6,7 +6,9 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Avenir','MS Pゴシック', 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', sans-serif;
+  background-color: #faf0e9; /* 追記 */
 }
+
 section {
   margin-top: 150px;
   margin-bottom: 150px;

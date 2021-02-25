@@ -79,7 +79,8 @@
     font-size: 16px;
   } 
 }
-/* pc版box内の上部に余白を作る */
+/* pc版 */
+/* box内の上部に余白を作る */
 @media screen and (min-width: 576px) {
   .box-top-margin {
     margin: 20px auto;
