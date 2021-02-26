@@ -1,15 +1,19 @@
 # camomile
 
-# ライバー募集 白色に。
+# ライバー募集 白色に。(改善案)
+# boxのcontent部分をh3に変更できないか
 
 # font-family
 * 太字対応 【】
 * スマホ対応 【】
 
-# box内上部のPCサイズの余白を作る用
+# box内上部のPCサイズの余白を作る用css
 * box-top-margin
+.box-top-margin {
+    margin: 20px auto;
+}
 
-# フォントテストのチェックコード
+# フォントチェックコード
 <h3 class="centering my-5">CAMOMILE.INC</h3>
 font-weight: bold; /* フォント太字 */
 
