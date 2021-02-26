@@ -11,8 +11,7 @@ $(function() {
   });
 
   /* test-box */
-  
-  
+
     /* boxタイトル(h3)の高さを取得 */
     var h3Height = $('h3').outerHeight();
     /* boxタイトル(h3)の位置を枠線上に配置 */
