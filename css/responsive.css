@@ -29,6 +29,7 @@
 
   /* top-image */  
   #add-liver {
+    /* right: 20px; スマホでのレスポンシブを右寄りにするため */
     bottom: 30px;
   }
   
