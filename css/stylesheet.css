@@ -12,6 +12,7 @@ body {
 section {
   margin-top: 150px;
   margin-bottom: 150px;
+  background-color: #fff;
 }
 .centering { /* ブロック */
   margin: 0 auto;
