@@ -12,6 +12,7 @@ body {
 section {
   margin-top: 150px;
   margin-bottom: 150px;
+  background-color: #fff;
 }
 .centering { /* ブロック */
   margin: 0 auto;
@@ -27,11 +28,12 @@ h3 { /* section-title */
   font-size: 45px;
   color: #fff;
   background-color: #000;
-  margin: 60px auto 50px;
-  padding: 10px 40px;
-  display: table;
-  text-align: center;
   border-radius: 50px;
+  margin: 0px auto;
+  padding: 10px 40px;
+  display: block;
+  width: 90%;
+  text-align: center;
 }
 h5 { /* FAQ-title */
   color: #fff;
@@ -222,9 +224,20 @@ nav.globalMenuSp.active {
   position: relative;
   border: 2px solid #000;
   border-radius: 4px;
+}
+.box-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/* ボックス関連 */
+.faq-box {
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 4px;
   padding: 3em 2em;
 }
-.box::before {
+.faq-box::before {
   /* ポジション */
   position: absolute;
   top: -40px;
@@ -243,21 +256,6 @@ nav.globalMenuSp.active {
   border-radius: 50px;
 }
 /* 各ボックス見出し */
-.introduction::before {
-  white-space: pre-wrap;
-  content: "#WHAT  IS  LIVER";
-}
-.support-container::before {
-  content: "#SUPPORT";
-}
-.about-container::before {
-  white-space: pre-wrap;
-  content: "#ABOUT  INCOME";
-}
-.sns-container::before {
-  white-space: pre-wrap;
-  content: "#CAMOMILE INC SNS";
-}
 .faq-container::before {
   content: "#FAQ";
 }

@@ -12,14 +12,14 @@
     font-size: 16px;
   }
   section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
   /* ボックス */
-  .box {
+  .faq-box {
     padding: 3em 1em;
   }
-  .box::before {
+  .faq-box::before {
     /* ポジション */
     top: -25px;
     /* 見出し */
