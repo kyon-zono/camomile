@@ -11,16 +11,24 @@
   h5 {
     font-size: 16px;
   }
-
-  /* 全体 */
   section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+  /* ボックス */
+  .box {
+    padding: 3em 1em;
   }
-  
+  .box::before {
+    /* ポジション */
+    top: -25px;
+    /* 見出し */
+    font-size: 24px; /* 30pxか24px */
+    width: 90%;
+  }
+
   /* top-image */  
   #add-liver {
-    /* right: 20px; スマホでのレスポンシブを右寄りにするため */
     bottom: 30px;
   }
   
@@ -32,7 +40,6 @@
   .support {
     margin-bottom: 10px;
   }
-
   /* sns */
   .sns-icon img{
     max-width: 100px;
@@ -40,24 +47,13 @@
   .add-friend img{
     height: 36px;
   }
-  
+  .sns-icons {
+    margin-top: 1em;
+  }
   /* faq */
-  .faq-items { /* box-content */
-    padding: 3em 1em;
-  }
-  .faq-item {
-    margin-bottom: 20px;
-  }
+  
   .q-text {
     padding-left: 0;
-  }
-
-  /* box */
-  .box {
-    padding: 0 1em;
-  }
-  .box-items {
-    padding: 2em 0;
   }
 
 }
@@ -70,7 +66,7 @@
 }
 /* 小さいスマホ */
 @media screen and (max-width: 450px) {
-  /* font-size関連 */
+  /* font-size 関連 */
   h3 {
     font-size: 20px;
   }
@@ -82,16 +78,11 @@
   }
   #add-liver p {
     font-size: 16px;
-  }
-  /* snsアイコン関連 */
+  } 
   #add-liver img{
     max-width: 80px;
   }
-  .sns-icon img{
-    max-width: 80px;
-  }
 }
-
 /* pc版 */
 /* box内の上部に余白を作る */
 @media screen and (min-width: 576px) {
