@@ -1,7 +1,5 @@
 # camomile
 
-# ライバー募集 白色に。(改善案)
-# boxのcontent部分をh3に変更できないか
 
 # font-family
 * 太字対応 【】
