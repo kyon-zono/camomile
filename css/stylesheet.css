@@ -185,7 +185,6 @@ nav.globalMenuSp.active {
   text-align: center;
 }
 
-
 /* FAQ-container */
 .faq-container {
   margin-bottom: 100px;
@@ -220,6 +219,7 @@ nav.globalMenuSp.active {
   margin-bottom: 0;
 }
 
+
 /* BOX関連 */
 .box {
   position: relative;
@@ -235,7 +235,6 @@ nav.globalMenuSp.active {
 .box-items {
   padding: 3em 1em;
 }
-
 
 /* フェードイン系 */
 .fadein {
