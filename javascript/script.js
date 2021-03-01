@@ -1,55 +1,28 @@
 $(function() {
   /* ハンバーガーメニュー */
   $('.hamburger').click(function() {
-        $(this).toggleClass('active');
+      $(this).toggleClass('active');
 
-        if ($(this).hasClass('active')) {
-            $('.globalMenuSp').addClass('active');
-        } else {
-            $('.globalMenuSp').removeClass('active');
-        }
+      if ($(this).hasClass('active')) {
+          $('.globalMenuSp').addClass('active');
+      } else {
+          $('.globalMenuSp').removeClass('active');
+      }
   });
 
   /* box */
 
     /* boxタイトル(h3)の高さを取得 */
     var h3Height = $('h3').outerHeight();
-    /* boxタイトル(h3)の位置を枠線上に配置 */
-    var boxTitlePosition = h3Height / 2 * -1 - 2; /* 後ろの -1 はboxのborder分を挿れるため */
-    $('.box-content').css('top', boxTitlePosition);
-    /* box-text を上下中央 */
-    var boxText = h3Height / 2;
-    $('.box-text').css('margin-top', boxText);
+    /* boxタイトル(h3)の位置を枠線上に配置する数値を代入 */
+    var boxTitlePosition = h3Height / 2 * -1 - 2; /* -1 はboxのborder分を計算に含めるため */
+    /* sectionタイトルをborder上にする */
+    $('.box-title').css('top', boxTitlePosition);
+    /* ボックスの中身: h3底辺〜box底辺で上下中央寄せする */
+    var boxContentTop = h3Height / 2 - 2;
+    $('.box-content').css('margin-top', boxContentTop);
 
-    /* faq */
-      /* sectionタイトルをborder上に。 */
-      $('.faq-title').css('top', boxTitlePosition);
-      var faqTitle = $('.faq-title').innerHeight();
-      var faqText = faqTitle / 2 - 2;
-      $('.faq-text').css('margin-top', faqText);
-
-    /* end */
-
-    /* position: relative;に高さを与える */
-      /* introduction */
-      var boxHeight = $("#introduction").find('.box-content').outerHeight();
-      $('#introduction').css('height', boxHeight);
-      /* support */
-      var boxHeight = $("#support").find('.box-content').outerHeight();
-      $('#support').css('height', boxHeight);
-      /* about */
-      var boxHeight = $("#about").find('.box-content').outerHeight();
-      $('#about').css('height', boxHeight);
-      /* sns */
-      var boxHeight = $("#sns").find('.box-content').outerHeight();
-      $('#sns').css('height', boxHeight);
-      /* faq */
-      var boxHeight = $("#faq").find('.box-content').outerHeight();
-      /* $('#faq').css('height', boxHeight); */
-
-  /* ここまで */
   
-
   /* フェードイン */
   $(window).scroll(function() {
     $('.fadein').each(function() {

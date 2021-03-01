@@ -174,7 +174,7 @@ nav.globalMenuSp.active {
 .support {
   text-align: center;
 }
-/* about-continer */
+/* about-container */
 
 /* sns-container */
 .sns-icon img{
@@ -184,16 +184,11 @@ nav.globalMenuSp.active {
 .sns-icon {
   text-align: center;
 }
-.sns-icons {
-  margin-top: 3em;
-}
+
 
 /* FAQ-container */
 .faq-container {
   margin-bottom: 100px;
-}
-.faq-items {
-  padding: 3em 1em;
 }
 .faq-item {
   margin-bottom: 30px;
@@ -224,24 +219,21 @@ nav.globalMenuSp.active {
 .answer p{
   margin-bottom: 0;
 }
-/* faqボックス関連 */
-.faq-box {
-  position: relative;
-  border: 2px solid #000;
-  border-radius: 4px;
-}
 
-
-/* ボックス関連 */
+/* BOX関連 */
 .box {
   position: relative;
   border: 2px solid #000;
   border-radius: 4px;
 }
-.box-content {
+.box-title { 
   position: absolute;
   left: 0;
   right: 0;
+  margin: auto; /* 追記 */
+}
+.box-items {
+  padding: 3em 1em;
 }
 
 
