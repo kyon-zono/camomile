@@ -23,7 +23,7 @@ section {
 
 /* フォント関連 */
 h3 { /* section-title */
-  font-family: 'arial Black'; /* ここは要らない */
+  font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
   font-size: 45px;
   color: #fff;
   background-color: #000;
