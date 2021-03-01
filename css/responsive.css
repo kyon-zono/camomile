@@ -17,7 +17,7 @@
   }
   /* ボックス */
   .faq-box {
-    padding: 3em 1em;
+    padding: 0 1em;
   }
   .faq-box::before {
     /* ポジション */

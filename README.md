@@ -39,3 +39,24 @@ font-weight: bold; /* フォント太字 */
     border-radious: 4px;
   }
 <!-- ここまで -->
+
+# コード逃し場所
+.faq-box::before {
+  /* ポジション */
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* 見出し(フォント関連) */
+  font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
+  font-weight: bold;
+  font-size: 45px;
+  max-width: 90%; 
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px 0; 
+  border-radius: 50px;
+}
+

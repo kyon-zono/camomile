@@ -10,7 +10,7 @@ $(function() {
         }
   });
 
-  /* test-box */
+  /* box */
 
     /* boxタイトル(h3)の高さを取得 */
     var h3Height = $('h3').outerHeight();
@@ -18,8 +18,17 @@ $(function() {
     var boxTitlePosition = h3Height / 2 * -1 - 2; /* 後ろの -1 はboxのborder分を挿れるため */
     $('.box-content').css('top', boxTitlePosition);
     /* box-text を上下中央 */
-    var boxText = h3Height/ 2;
+    var boxText = h3Height / 2;
     $('.box-text').css('margin-top', boxText);
+
+    /* faq */
+      /* sectionタイトルをborder上に。 */
+      $('.faq-title').css('top', boxTitlePosition);
+      var faqTitle = $('.faq-title').innerHeight();
+      var faqText = faqTitle / 2 - 2;
+      $('.faq-text').css('margin-top', faqText);
+
+    /* end */
 
     /* position: relative;に高さを与える */
       /* introduction */
@@ -36,8 +45,8 @@ $(function() {
       $('#sns').css('height', boxHeight);
       /* faq */
       var boxHeight = $("#faq").find('.box-content').outerHeight();
-      $('#faq').css('height', boxHeight);
-      
+      /* $('#faq').css('height', boxHeight); */
+
   /* ここまで */
   
 
