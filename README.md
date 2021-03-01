@@ -1,6 +1,5 @@
 # camomile
 
-
 # font-family
 * 太字対応 【】
 * スマホ対応 【】
@@ -10,10 +9,6 @@
 .box-top-margin {
     margin: 20px auto;
 }
-
-# フォントチェックコード
-<h3 class="centering my-5">CAMOMILE.INC</h3>
-font-weight: bold; /* フォント太字 */
 
 # ライバー募集改善案の仮コード
 <!-- 改善案 -->
