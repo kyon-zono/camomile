@@ -19,13 +19,7 @@
   .faq-box {
     padding: 0 1em;
   }
-  .faq-box::before {
-    /* ポジション */
-    top: -25px;
-    /* 見出し */
-    font-size: 24px; /* 30pxか24px */
-    width: 90%;
-  }
+  
 
   /* top-image */  
   #add-liver {
@@ -52,7 +46,13 @@
     margin-top: 1em;
   }
   /* faq */
-  
+  .faq-items {
+    padding: 2em 1em;
+  }
+  .faq-item {
+    margin-bottom: 20px;
+  }
+
   .q-text {
     padding-left: 0;
   }
