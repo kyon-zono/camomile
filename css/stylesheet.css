@@ -45,6 +45,7 @@ p {
 /* ヘッダー */ 
 header {
   height: 60px;
+  background-color: crimson;
   /* background-color: #fff; */
 }
 .logo {
