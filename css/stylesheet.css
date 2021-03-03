@@ -231,6 +231,10 @@ nav.globalMenuSp.active {
   margin-bottom: 0;
 }
 
+/* footer */
+footer {
+  margin: 0 auto 20px; 
+}
 
 /* BOX関連 */
 .box {
