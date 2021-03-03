@@ -24,14 +24,16 @@ section {
 /* フォント関連 */
 h3 { /* section-title */
   font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
+  font-weight: bold;
   font-size: 45px;
   color: #fff;
   background-color: #000;
-  margin: 60px auto 50px;
-  padding: 5px 40px;
-  display: table;
-  text-align: center;
   border-radius: 50px;
+  margin: 0px auto;
+  padding: 10px 40px;
+  display: block;
+  width: 90%;
+  text-align: center;
 }
 h5 { /* FAQ-title */
   color: #fff;
@@ -185,7 +187,7 @@ nav.globalMenuSp.active {
 .support {
   text-align: center;
 }
-/* about-continer */
+/* about-container */
 
 /* sns-container */
 .sns-icon img{
@@ -195,16 +197,13 @@ nav.globalMenuSp.active {
 .sns-icon {
   text-align: center;
 }
-.sns-icons {
-    margin-top: 3em;
-  }
 
 /* FAQ-container */
 .faq-container {
   margin-bottom: 100px;
 }
 .faq-item {
-  margin: 30px 10px;
+  margin-bottom: 30px;
   padding-bottom: 5px;
   cursor: pointer;
   border-bottom:1px solid #ccc;
@@ -223,6 +222,7 @@ nav.globalMenuSp.active {
 .accordion {
   padding: 0;
   margin: auto 0;
+  text-align: center;
 }
 .answer {
   display: none;
@@ -233,49 +233,20 @@ nav.globalMenuSp.active {
 }
 
 
-/* ボックス関連 */
+/* BOX関連 */
 .box {
   position: relative;
   border: 2px solid #000;
   border-radius: 4px;
-  padding: 3em 2em;
 }
-.box::before {
-  /* ポジション */
+.box-title { 
   position: absolute;
-  top: -40px;
   left: 0;
   right: 0;
-  margin: auto;
-  /* 見出し(フォント関連) */
-  font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
-  font-weight: bold;
-  font-size: 45px;
-  max-width: 90%; 
-  color: #fff;
-  background-color: #000;
-  text-align: center;
-  padding: 5px 0; 
-  border-radius: 50px;
+  margin: auto; /* 追記 */
 }
-/* 各ボックス見出し */
-.introduction::before {
-  white-space: pre-wrap;
-  content: "#WHAT  IS  LIVER";
-}
-.support-container::before {
-  content: "#SUPPORT";
-}
-.about-container::before {
-  white-space: pre-wrap;
-  content: "#ABOUT  INCOME";
-}
-.sns-container::before {
-  white-space: pre-wrap;
-  content: "#CAMOMILE INC SNS";
-}
-.faq-container::before {
-  content: "#FAQ";
+.box-items {
+  padding: 3em 1em;
 }
 
 /* フェードイン系 */
