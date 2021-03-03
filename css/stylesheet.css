@@ -44,38 +44,23 @@ h5 { /* FAQ-title */
 p {
   font-size: 24px;
 }
-
-/* top-container */
-.top-container {
-  background-image: url('../images/top_image.png');
-  height: 100vw;
-  width: 100vw;
-  background-size: cover;
-  position: relative;
+/* ヘッダー */ 
+header {
+  height: 60px;
+  /* background-color: #fff; */
 }
-#add-liver {
-  position: fixed;
-  right: 10vw;
-  bottom: 10vh;
-  z-index: 2; /* add_liverを固定で追加 */
+.logo {
+  height: 60px;
+  margin-left: 13px;
+  display: flex;
+  align-items: center;
 }
-#add-liver p {
-  color: #fff;
-  text-shadow:black 1px 1px 10px, black -1px 1px 10px,
-              black 1px -1px 10px, black -1px -1px 10px;
-}
-.add-liver p {
-  margin: 0;
-  font-weight: bold;
-}
-.fa-arrow-circle-right {
-  margin-left: 5px;
+.logo img {
+  height: 42px;
+  display: block;
 }
 
 /* ハンバーガー */
-header {
-  height: 60px;
-}
 .hamburger {
   display : block;
   position: fixed;
@@ -134,7 +119,7 @@ nav.globalMenuSp {
   background: rgba(0,0,0,0.7);
   text-align: center;
   opacity: 0;
-  visibility: hidden; /* 追記:ハンバーガー閉時反応問題のため */
+  visibility: hidden; /* 追記:ハンバーガー閉時反応バグのため */
   transition: opacity .6s ease, visibility .6s ease;
 }
 nav.globalMenuSp ul {
@@ -162,7 +147,34 @@ nav.globalMenuSp ul li a {
 }
 nav.globalMenuSp.active {
   opacity: 100;
-  visibility: visible; /* 追記:ハンバーガー閉時反応問題のため */
+  visibility: visible; /* 追記:ハンバーガー閉時反応バグのため */
+}
+
+/* top-container */
+.top-container {
+  background-image: url('../images/top_image.png');
+  height: 100vw;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+}
+#add-liver {
+  position: fixed;
+  right: 10vw;
+  bottom: 10vh;
+  z-index: 2; /* add_liverを固定で追加 */
+}
+#add-liver p {
+  color: #fff;
+  text-shadow:black 1px 1px 10px, black -1px 1px 10px,
+              black 1px -1px 10px, black -1px -1px 10px;
+}
+.add-liver p {
+  margin: 0;
+  font-weight: bold;
+}
+.fa-arrow-circle-right {
+  margin-left: 5px;
 }
 /* introduction */
 
@@ -196,7 +208,7 @@ nav.globalMenuSp.active {
   border-bottom:1px solid #ccc;
 }
 .faq-last-item {
-  margin-bottom: 0px !important;
+  margin-bottom: 0 !important;
 }
 .question {
   margin: 0;
