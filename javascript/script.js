@@ -9,14 +9,13 @@ $(function() {
           $('.globalMenuSp').removeClass('active');
       }
   });
-
-  /* スクロール機能(スマホ対応) */
-  $('header li').click(function() {
+  /* 自動スクロール機能(スマホ対応) */
+  $('header a').click(function() {
     var id = $(this).attr('href');
-    var scrollPosition = $(id).scrollTop();
+    var scrollPosition = $(id).offset().top;
     $('html,body').animate({
       'scrollTop': scrollPosition
-    }, 5000);
+    }, 500);
   });
 
   /* box */
@@ -30,7 +29,6 @@ $(function() {
     /* ボックスの中身: h3底辺〜box底辺で上下中央寄せする */
     var boxContentTop = h3Height / 2 - 2;
     $('.box-content').css('margin-top', boxContentTop);
-
   
   /* フェードイン */
   $(window).scroll(function() {

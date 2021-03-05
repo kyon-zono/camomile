@@ -7,7 +7,6 @@ body {
   width: 100%;
   font-family: 'Avenir','MS Pゴシック', 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', sans-serif;
   background-color: #faf0e9;
-  -webkit-overflow-scrolling: touch;
 }
 
 section {
