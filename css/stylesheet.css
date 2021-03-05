@@ -8,7 +8,6 @@ body {
   font-family: 'Avenir','MS Pゴシック', 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', sans-serif;
   background-color: #faf0e9;
 }
-
 section {
   margin-top: 150px;
   margin-bottom: 150px;
@@ -47,8 +46,6 @@ p {
 /* ヘッダー */ 
 header {
   height: 60px;
-  background-color: crimson;
-  /* background-color: #fff; */
 }
 .logo {
   height: 60px;
@@ -93,7 +90,6 @@ header {
 .hamburger span:nth-child(3) {
   top: 30px;
 }
-
 /* ナビが開いてる時 */
 .hamburger.active span:nth-child(1) {
   top : 16px;
@@ -120,7 +116,7 @@ nav.globalMenuSp {
   background: rgba(0,0,0,0.7);
   text-align: center;
   opacity: 0;
-  visibility: hidden; /* 追記:ハンバーガー閉時反応バグのため */
+  visibility: hidden; 
   transition: opacity .6s ease, visibility .6s ease;
 }
 nav.globalMenuSp ul {
@@ -148,7 +144,7 @@ nav.globalMenuSp ul li a {
 }
 nav.globalMenuSp.active {
   opacity: 100;
-  visibility: visible; /* 追記:ハンバーガー閉時反応バグのため */
+  visibility: visible; 
 }
 
 /* top-container */
@@ -177,6 +173,7 @@ nav.globalMenuSp.active {
 .fa-arrow-circle-right {
   margin-left: 5px;
 }
+
 /* introduction */
 
 /* support-container */
@@ -247,7 +244,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto; /* 追記 */
+  margin: auto; 
 }
 .box-items {
   padding: 3em 1em;

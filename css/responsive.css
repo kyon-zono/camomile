@@ -51,8 +51,6 @@
     padding-left: 0;
   }
 
-  /* footer */ 
-
   /* box */
   .box {
     padding: 0 1em;
@@ -65,16 +63,6 @@
 
 }
 
-/* タブレットサイズ */
-@media screen and (max-width: 670px) {
-  .top-container {
-  background-size: 100% 100%;
-  } 
-
-  #add-liver img {
-    max-width: 100px;
-  }
-}
 /* 小さいスマホ */
 @media screen and (max-width: 450px) {
   /* font-size関連 */
@@ -104,10 +92,19 @@
   }
 }
 
+/* タブレットサイズ */
+@media screen and (max-width: 670px) {
+  .top-container {
+  background-size: 100% 100%;
+  } 
+
+  #add-liver img {
+    max-width: 100px;
+  }
+}
+
 /* pc版 */
 /* box内の上部に余白を作る */
 @media screen and (min-width: 576px) {
-  .box-top-margin {
-    margin: 20px auto;
-  }
+  
 }
