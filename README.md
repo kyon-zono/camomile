@@ -1,8 +1,7 @@
 # camomile
 
-# font-family
-* 太字対応 【】
-* スマホ対応 【】
+# スクロール機能がスマホ化で機能しない問題
+→スクロール機能をjqueryで
 
 # sns-items 
 * snsセクションのみbox内の上下余白をあけるため
@@ -15,5 +14,3 @@ box-items {
   background-color: crimson; /* check用 */
 }
 
-# footer
-* 追加: (C) 2021 Camomile All rights reserved.

@@ -10,6 +10,15 @@ $(function() {
       }
   });
 
+  /* スクロール機能(スマホ対応) */
+  $('.li').click(function() {
+    var id = $(this).attr('href');
+    var scrollPosition = $(id).offset().top;
+    $('html, body').animate({
+      'scrollTop': scrollPosition
+    }, 500);
+  });
+
   /* box */
 
     /* boxタイトル(h3)の高さを取得 */
