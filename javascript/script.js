@@ -11,12 +11,12 @@ $(function() {
   });
 
   /* スクロール機能(スマホ対応) */
-  $('.li').click(function() {
+  $('header li').click(function() {
     var id = $(this).attr('href');
-    var scrollPosition = $(id).offset().top;
-    $('html, body').animate({
+    var scrollPosition = $(id).scrollTop();
+    $('html,body').animate({
       'scrollTop': scrollPosition
-    }, 500);
+    }, 5000);
   });
 
   /* box */

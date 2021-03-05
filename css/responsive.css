@@ -20,8 +20,7 @@
   
   /* top-image */  
   #add-liver {
-    /* right: 20px; スマホでのレスポンシブを右寄りにするため */
-    bottom: 30px;
+    bottom: 50px; /* 30→50 */
   }
   
   /* support */
@@ -71,6 +70,10 @@
   .top-container {
   background-size: 100% 100%;
   } 
+
+  #add-liver img {
+    max-width: 100px;
+  }
 }
 /* 小さいスマホ */
 @media screen and (max-width: 450px) {
@@ -83,6 +86,11 @@
   }
   h5 {
     font-size: 14px;
+  }
+  #add-liver {
+    bottom: 50px;
+    width: 80%;
+    justify-content: space-around;
   }
   #add-liver p {
     font-size: 16px;
