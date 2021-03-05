@@ -39,6 +39,11 @@ h5 { /* FAQ-title */
   font-size: 24px;
   background-color: #000;
   border-radius: 25px;
+
+  padding: 5px 15px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 p {
   font-size: 24px;
@@ -210,11 +215,6 @@ nav.globalMenuSp.active {
 }
 .question {
   margin: 0;
-}
-.question h5 {
-  padding: 5px 15px;
-  margin: 0;
-  display: inline-block;
 }
 .accordion {
   padding: 0;
