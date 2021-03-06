@@ -39,8 +39,7 @@ h5 { /* FAQ-title */
   font-size: 24px;
   background-color: #000;
   border-radius: 25px;
-
-  padding: 5px 15px;
+  padding: 5px 15px 3px;/* fontによる微妙なズレを修正するために上下で異なる値に。 */
   margin: 0;
   display: inline-block;
   vertical-align: middle;
