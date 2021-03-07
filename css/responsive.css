@@ -18,6 +18,7 @@
     margin-bottom: 100px;
   }
   
+
   /* top-image */  
   #add-liver {
     bottom: 50px; /* 30→50 */
@@ -94,6 +95,11 @@
 
 /* タブレットサイズ */
 @media screen and (max-width: 670px) {
+  /* header */
+  .logo img {
+  height: 42px;
+  }
+  
   .top-container {
   background-size: 100% 100%;
   } 
