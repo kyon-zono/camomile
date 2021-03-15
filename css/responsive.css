@@ -21,7 +21,7 @@
 
   /* top-image */  
   #add-liver {
-    bottom: 50px; /* 30→50 */
+    bottom: 50px;
   }
   
   /* support */
@@ -110,7 +110,6 @@
 }
 
 /* pc版 */
-/* box内の上部に余白を作る */
 @media screen and (min-width: 576px) {
   
 }

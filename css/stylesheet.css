@@ -13,16 +13,16 @@ section {
   margin-bottom: 150px;
   background-color: #fff;
 }
-.centering { /* ブロック */
+.centering {
   margin: 0 auto;
 }
-.align-center { /* インライン */
+.align-center {
   text-align: center;
 }
 
 /* フォント関連 */
 h3 { /* section-title */
-  font-family: 'arial Black', 'arial', 'Avenir', sans-serif; /* フォント指定 */
+  font-family: 'arial Black', 'arial', 'Avenir', sans-serif;
   font-weight: bold;
   font-size: 45px;
   color: #fff;
@@ -39,7 +39,7 @@ h5 { /* FAQ-title */
   font-size: 24px;
   background-color: #000;
   border-radius: 25px;
-  padding: 5px 15px 3px;/* fontによる微妙なズレを修正するために上下で異なる値に。 */
+  padding: 5px 15px 3px;
   margin: 0;
   display: inline-block;
   vertical-align: middle;
@@ -94,7 +94,7 @@ header {
 .hamburger span:nth-child(3) {
   top: 30px;
 }
-/* ナビが開いてる時 */
+/* オープン時 */
 .hamburger.active span:nth-child(1) {
   top : 16px;
   left: 6px;
